@@ -37,7 +37,7 @@ Use LinearB's AI with the [`code-review`](/automation-actions/#code-review) acti
 
 #### Localization Support
 
-You can request the AI to provide code review comments in your preferred language by adding it to the guidelines:
+You can request the AI to provide code review comments in your preferred language by adding it to the guidelines. Every instruction that you add in the custom guidelines  will be **added** in addition to our default prompts:
 
 ```yaml+jinja
 automations:
